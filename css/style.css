@@ -51,10 +51,7 @@
 }
 @media (max-width: 991px){
  .section{
-    position: relative;
-    top: -150px;
-    width: 90%;
-    margin: 0px auto;
+ display: none;
 } 
 }
 @media (max-width: 991px){
