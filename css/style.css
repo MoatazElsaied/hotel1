@@ -6,7 +6,7 @@
  }
  @media (max-width:762px) {
       .Unwind{
-     font-size: 16px !important;
+     font-size: 20px !important;
  }
  }
 .typed_wrap h1 {
@@ -40,3 +40,25 @@
     100% { opacity:1; }
 }
 
+
+.section {
+    position: relative;  
+    top: -250px;
+    left: 0px;
+    right: 0px;
+    width: 90%;
+    margin: 0px auto;
+}
+@media (max-width: 991px){
+ .section{
+    position: relative;
+    top: -150px;
+    width: 90%;
+    margin: 0px auto;
+} 
+}
+@media (max-width: 991px){
+ .display-4{
+   font-size: 2rem !important;
+} 
+}
