@@ -15,12 +15,9 @@
         integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="libs/wow/css/animate.css" />
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/owl.theme.default.min.css">
     <title>Hotel</title>
-
 </head>
-<body class=" bg-light">
+<body class="bg-light">
     <header>
         <!--Start navs-content-->
         <div class="navs-wrapper ">
@@ -136,7 +133,7 @@
     </section>
     <!-- About -->
     <div class="container Aboutus wow fadeInUp">
-        <h1 class="text-center  mb-5" style="color: burlywood;">About Us</h2>
+        <h1 class="text-center mb-5" style="color: burlywood;">About Us</h2>
             <div class="row">
                 <div class="col-md-3 col-12 ">
                     <div class="shadow-lg  bg-white text-center Cozy">
@@ -175,7 +172,7 @@
                         language
                         ocean.
                     </p>
-                    <button class="btn btn-lg mt-4">Book Your Room Now</button>
+                    <button class="btn btn-lg mt-3">Book Your Room Now</button>
                 </div>
             </div>
     </div>
@@ -200,10 +197,10 @@
         <h6 class="text-center">OUR ROOMS</h6>
         <h1 class="text-center Featured ">Featured Rooms</h1>
         <div class="card-group mt-5">
-            <div class="card shadow-lg ml-4 wow flipInY">
+            <div class="card shadow-lg ml-lg-4 wow flipInY">
                 <div class="card-body ">
                     <h3 class="text-center pt-5">Suite Room</h3>
-                    <p class="text-muted text-center pt-4 p">Far far away, behind the word mountains, far
+                    <p class="text-muted text-center pt-4">Far far away, behind the word mountains, far
                         from the
                         countries
                         Vokalia and
@@ -219,7 +216,7 @@
                 </div>
                 <img src="images/room1.webp" width="100%" height="280px" class="card-img-top" alt="...">
             </div>
-            <div class="card shadow-lg ml-4 wow flipInY">
+            <div class="card shadow-lg ml-lg-4 wow flipInY">
                 <img src="images/room2.webp" width="100%" height="280px" class="card-img-top" alt="...">
 
                 <div class="card-body">
@@ -239,7 +236,7 @@
                     </div>
                 </div>
             </div>
-            <div class="card shadow-lg ml-4 wow flipInY">
+            <div class="card shadow-lg ml-lg-4 wow flipInY">
                 <div class="card-body">
                     <h3 class="text-center pt-5">Deluxe Room</h3>
                     <p class="text-muted text-center pt-4 p">Far far away, behind the word mountains, far
@@ -332,7 +329,7 @@
             </div>
             <div class="col-lg-4 col-md-6 col-12 mt-5">
                 <div class="parent d-flex">
-                    <div class="Grilled   bg-white d-flex">
+                    <div class="Grilled  bg-white d-flex">
                         <div class="p-4 mt-2">
                             <img src="images/5.webp" width="100px" alt="">
                         </div>
@@ -418,7 +415,7 @@
     <!-- ------------------------------------------------------- -->
     <div class="container-fluid Card wow fadeInUp">
         <p class="text-center" style="color: burlywood;">OUR BLOG</p>
-        <h1 class="text-center blog pt-4">Recent Blog</h1>
+        <h1 class="text-center blog pt-3">Recent Blog</h1>
         <div class="card-deck pt-5">
             <div class="card">
                 <img src="images/c1.webp" width="100%" height="300px" class="card-img-top" alt="...">
@@ -551,7 +548,6 @@
                                                 </li>
                                             </ul>
                                         </div>
-
                                     </div>
                                 </div>
                             </div>
@@ -562,7 +558,6 @@
         </div>
     </section>
     <!---- End general-product ---->
-
     <!---- start footer ---->
     <footer>
         <div class="container wow fadeInUp">
@@ -652,14 +647,14 @@
                     <div class="content">
                         <h6>Have a Questions?</h6>
                         <p>
-                            17 AbdelSalam Aref , Mansoura El-Dakahlia
+                            moatazsaied98@gmail.com
                         </p>
                         <p>
                             <i class="fas fa-phone-alt" style="color: burlywood;"></i> +2010 144 104 80
                         </p>
                         <p>
                             <i class="fas fa-map-marker-alt" style="color: burlywood;"></i>
-                            moatazsaied98@gmail.com
+                            17 AbdelSalam Aref , Mansoura El-Dakahlia
                         </p>
                     </div>
                 </div>
@@ -682,126 +677,8 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/1.1.1/typed.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
-    <script src="js/main.js"></script>
-    <script>
-        function func1() {
-            document.getElementById('subscribe').style.display = "block";
-        }
-        function func2() {
-            document.getElementById('subscribe').style.display = "none";
-        }
-
-        $('.owl-carousel').owlCarousel({
-            loop: true,
-            margin: 10,
-            autoplay: true,
-            nav: true,
-            responsive: {
-                0: {
-                    items: 1
-                },
-                600: {
-                    items: 3
-                },
-                1000: {
-                    items: 5
-                }
-            }
-        });
-
-
-        $(window).scroll(function () {
-
-            $scrollpos = $(this).scrollTop();
-            if ($scrollpos >= 2000) {
-                $('.scroll-top-btn').css({ 'opacity': '1' });
-            }
-            else {
-                $('.scroll-top-btn').css({ 'opacity': '0' });
-            }
-        });
-        $('.scroll-top-btn').click(function () {
-            $('html,body').animate({ scrollTop: '0' }, 1000);
-            return false;
-        });
-
-
-
-
-
-        $('.toggler-bnt').click(function () {
-            $('.toggler-bnt').toggleClass('active');
-        });
-
-        var counted = 0;
-        $(window).scroll(function () {
-            var oTop = $('.viewed').offset().top - window.innerHeight;
-            if (counted == 0 && $(window).scrollTop() > oTop) {
-                $('.count').each(function () {
-                    var $this = $(this),
-                        countTo = $this.attr('data-count');
-                    $({
-                        countNum: $this.text()
-                    }).animate({
-                        countNum: countTo
-                    },
-                        {
-                            duration: 2000,
-                            easing: 'swing',
-                            step: function () {
-                                $this.text(Math.floor(this.countNum));
-                            },
-                            complete: function () {
-                                $this.text(this.countNum);
-                            }
-                        });
-                });
-                count = 1;
-            }
-        });
-
-
-
-
-
-
-        $(function () {
-            $(" .typed ").typed({
-                strings: [" Relaxing Place.", " Wonderful Place.",],
-                // Optionally use an HTML element to grab strings from (must wrap each string in a <p>)
-                stringsElement: null,
-                // typing speed
-                typeSpeed: 30,
-                // time before typing starts
-                startDelay: 1200,
-                // backspacing speed
-                backSpeed: 20,
-                // time before backspacing
-                backDelay: 500,
-                // loop
-                loop: true,
-                // false = infinite
-                loopCount: 5,
-                // show cursor
-                showCursor: false,
-                // character for cursor
-                cursorChar: " | ",
-                // attribute to type (null == text)
-                attr: null,
-                // either html or text
-                contentType: ' html ',
-                // call when done callback function
-                callback: function () { },
-                // starting callback function before each string
-                preStringTyped: function () { },
-                //callback for every typed string
-                onStringTyped: function () { },
-                // callback for reset
-                resetCallback: function () { }
-            });
-        });
-
-    </script>
+    <script src="js/App.js"></script>
+  
 </body>
 
 </html>
